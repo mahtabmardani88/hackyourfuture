@@ -1,0 +1,143 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.header{
+    height:290px;
+    background-color: #343838;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.header p:hover{
+    color: orange;
+  transform: scale(1.02);
+}
+.header .nav-list{
+    list-style-type: none;
+    
+}
+.nav-item{
+display: inline-block;
+padding: 15px;
+border: 1px solid white;
+border-radius: 30px;
+background-color: #343838;
+}
+.nav-item:hover{
+   color: orange;
+    }
+.title{
+    font-size: 60px;
+    margin-top: 60px;
+ }
+ span{
+    color: orange;
+}
+ .desc{
+width: 500px;
+margin: auto;
+height: 55px;
+background-color: #343838;
+line-height: 55px;
+border-radius: 30px;
+border: 1px solid white;
+margin-top: 30px;
+font-size: 15px;
+ }
+ .members{
+    text-align: center;
+    padding: 50px 30px; 
+    background-color: #242727;
+    box-shadow: 0 0 40px;
+
+}
+.members h2:hover{
+    color: orange;
+    transform: scale(1.02);
+}
+.members h3:hover{
+    color: orange;
+}
+ .member-list{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 25px;
+    
+ }
+ .member-item{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 10px lightgrey;
+    border-radius: 40px;
+
+ }
+ .member-pic{
+    width: 100%;
+    border-start-end-radius: 40px;
+    border-start-start-radius: 40px;
+ }
+ .member-pic:hover{transform: scale(1.02);
+}
+ .member-name{
+    font-size: 25px;
+    margin-top: 5px;
+ }
+ .member-bio{
+    padding: 20px;
+    text-align: justify;
+ }
+ .about{
+ height: 700px;
+background-color: lightgray;
+background-size: cover;
+padding-top: 50px;
+background-color: #393e3e;
+background-blend-mode:multiply ;
+box-shadow: 0 0 40px;
+}
+ .circle{
+    width: 600px;
+    height: 600px;
+    background-color:#343838;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    padding: 80px 120px;
+    color: rgb(33, 35, 35);
+ }
+ .circle p{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 15px;
+    
+ }
+ .circle p:hover{transform: scale(1.04);}
+ .circle h2{
+    font-size: 25px;
+ }
+ .sociales{
+    height: 90px;
+    background-color: #343838;
+    text-align: center;
+    background-blend-mode:multiply ;
+    box-shadow: 0 0 40px;
+   
+    
+}
+.sociales img{
+    width: 5%;
+    margin: 13px;
+    border-radius: 30%;
+
+}
+.sociales img:hover{transform: scale(1.02);}

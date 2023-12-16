@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <link rel="stylesheet" href="contact-me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="./html.html">home</a></li>
+            <li class="nav-item"><a href="./news.html">news</a></li>
+            <li class="nav-item"><a href="./movie.html">movies</a></li>
+            <li class="nav-item"><a href="">Log in</a></li>
+        </ul>
+        <h1 class="title"><span>Mahtab</span> Movie <span>Company</span></h1>
+    </div>
+    <div class="container">
+    <div class="card">
+        <img class="pic" src="./images/comn.jpg" alt="">
+        <p><i class="fas fa-phone" ></i> phone : 060000000</p>
+        <p><i class="fas fa-at"></i> mm@yahoo.com</p>
+        <p><i class="fa fa-instagram"></i>  mahtab mardani</p>
+        <p><i class="fa fa-telegram"></i> mahtab mardani</p>
+    </div>
+    <p class="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In illo quaerat labore officiis architecto cupiditate deleniti. Libero architecto, sequi perspiciatis sint totam fugit sit veniam? Accusantium minima doloremque quam incidunt beatae culpa excepturi asperiores labore doloribus, accusamus a nisi esse quibusdam velit, voluptatum, corporis dolor non ipsam ullam. Tempora, natus?</p>
+</div>
+<script>
+    // JavaScript code to toggle the visibility of the contact information card
+    document.addEventListener('DOMContentLoaded', function () {
+        var contactCard = document.getElementById('contactCard');
+        var toggleContactButton = document.getElementById('toggleContactButton');
+
+        // Initially hide the contact information card
+        contactCard.style.display = 'none';
+
+        // Toggle the visibility when the button is clicked
+        toggleContactButton.addEventListener('click', function () {
+            if (contactCard.style.display === 'none') {
+                contactCard.style.display = 'block';
+            } else {
+                contactCard.style.display = 'none';
+            }
+        });
+    });
+</script>
+</body>
+</html>

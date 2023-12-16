@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enjoy your movie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="header">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="./html.html">home</a></li>
+            <li class="nav-item"><a href="./news.html">news</a></li>
+            <li class="nav-item"><a href="./contact-me.html">Contact me</a></li>
+            <li class="nav-item"><a href="./movie.html">movies</a></li>
+            <li class="nav-item"><a href="./login.html">Log in</a></li>
+        </ul>
+        <h1 class="title"><span>Mahtab</span> Movie <span>Company</span></h1>
+    </div>
+    <form class="form" id="loginForm">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <button type="button" class="button" onclick="login()">Log In</button>
+        <p class="text-form">
+            <span id="forgotPassword" onclick="forgotPassword()">Forget your password?</span><br>
+            Don't have an account? <br>
+        </p>
+        <button type="button" class="button">Make Account</button>
+         
+    <div id="footera" class="footer">
+        <div class="sociales">
+           <a href="mailto:your@email.com" ><img src="images/email logo.png" alt="email"></a>
+           <a href="https://www.instagram.com/your_username/"><img src="images/instagram logo.png" alt="instagram"></a>
+           <a href="https://wa.me/1234567890"><img src="images/whatsapp logo.png" alt="whatsapp"></a>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            alert('Logged In!');
+        }
+
+        function forgotPassword() {
+            var userEmail = prompt('Enter your email:');
+            
+            if (userEmail) {
+                alert('send the email, pleasse check your email ' + userEmail);
+            }
+        }
+    </script>
+</body>

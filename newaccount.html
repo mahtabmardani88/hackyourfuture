@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enjoy your movie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="header">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="./html.html">home</a></li>
+            <li class="nav-item"><a href="./news.html">news</a></li>
+            <li class="nav-item"><a href="./contact-me.html">Contact me</a></li>
+            <li class="nav-item"><a href="./movie.html">movies</a></li>
+            <li class="nav-item"><a href="./login.html">Log in</a></li>
+        </ul>
+        <h1 class="title"><span>Mahtab</span> Movie <span>Company</span></h1>
+    </div>
+    <form class="form" id="loginForm">
+        <div id="createAccountSection" class="form-section">
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"  required><br>
+            
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"  required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"  required><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"  required><br>
+
+            <label for="phoneNumber">Your Number:</label><br>
+            <input type="text" id="phoneNumber" name="phoneNumber"  required><br>
+
+            <button type="button" class="button" onclick="submitAccount()">Submit</button>
+        </div>
+
+       
+    </form>
+    <footer id="footera" class="footer">
+        <div class="sociales">
+           <a href="mailto:your@email.com" ><img src="images/email logo.png" alt="email"></a>
+           <a href="https://www.instagram.com/your_username/"><img src="images/instagram logo.png" alt="instagram"></a>
+           <a href="https://wa.me/1234567890"><img src="images/whatsapp logo.png" alt="whatsapp"></a>
+        </div>
+    </footer>
+    <script src="./js.js"></script>
+     
+    </div>
+</body>
